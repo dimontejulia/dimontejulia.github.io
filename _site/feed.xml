@@ -5,9 +5,20 @@
     <description>I'm a Full Stack Web Developer from Toronto, Ontario.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2021 16:02:43 -0500</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2021 16:02:43 -0500</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2021 16:25:53 -0500</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2021 16:25:53 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2021 16:25:53 -0500</pubDate>
+        <link>http://localhost:4000/2021/02/01/2020-11-10-mood4food.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/02/01/2020-11-10-mood4food.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Bookends</title>
@@ -63,6 +74,10 @@
         
         <category>React</category>
         
+        <category>PSQL</category>
+        
+        <category>Websockets</category>
+        
         
         <category>development</category>
         
@@ -73,20 +88,43 @@
       </item>
     
       <item>
-        <title>Weathercast</title>
+        <title>Tweeter</title>
         <description>
 </description>
-        <pubDate>Sat, 20 Feb 2016 10:56:00 -0500</pubDate>
-        <link>http://localhost:4000/development/2016/02/20/weathercast.html</link>
-        <guid isPermaLink="true">http://localhost:4000/development/2016/02/20/weathercast.html</guid>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/development/2020/11/01/tweeter.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2020/11/01/tweeter.html</guid>
         
         <category>JavaScript</category>
         
-        <category>AngularJS</category>
+        <category>Express</category>
         
-        <category>API</category>
+        <category>NodeJS</category>
         
-        <category>Sass</category>
+        <category>CSS</category>
+        
+        <category>HTML</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>TinyApp</title>
+        <description>
+</description>
+        <pubDate>Sun, 25 Oct 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/development/2020/10/25/tinyapp.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2020/10/25/tinyapp.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>NodeJS</category>
+        
+        <category>Express</category>
+        
+        <category>EJS</category>
         
         
         <category>development</category>

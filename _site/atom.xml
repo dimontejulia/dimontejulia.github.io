@@ -4,13 +4,22 @@
  <title>Hello. I'm Julia Di Monte.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-02-01T16:02:43-05:00</updated>
+ <updated>2021-02-01T16:25:53-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Julia Di Monte</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title></title>
+   <link href="http://localhost:4000/2021/02/01/2020-11-10-mood4food.html"/>
+   <updated>2021-02-01T16:25:53-05:00</updated>
+   <id>http://localhost:4000/2021/02/01/2020-11-10-mood4food</id>
+   <content type="html">
+</content>
+ </entry>
  
  <entry>
    <title>Bookends</title>
@@ -40,10 +49,19 @@
  </entry>
  
  <entry>
-   <title>Weathercast</title>
-   <link href="http://localhost:4000/development/2016/02/20/weathercast.html"/>
-   <updated>2016-02-20T10:56:00-05:00</updated>
-   <id>http://localhost:4000/development/2016/02/20/weathercast</id>
+   <title>Tweeter</title>
+   <link href="http://localhost:4000/development/2020/11/01/tweeter.html"/>
+   <updated>2020-11-01T00:00:00-04:00</updated>
+   <id>http://localhost:4000/development/2020/11/01/tweeter</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>TinyApp</title>
+   <link href="http://localhost:4000/development/2020/10/25/tinyapp.html"/>
+   <updated>2020-10-25T00:00:00-04:00</updated>
+   <id>http://localhost:4000/development/2020/10/25/tinyapp</id>
    <content type="html">
 </content>
  </entry>
