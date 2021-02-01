@@ -3,203 +3,69 @@ layout: inner
 title: About
 permalink: /about/
 ---
-## Markdown
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# About
 
-[Link to another page](/index.html).
+As a web developer and graduate of Queen's University with a Bachelor of Computing, I look for opportunities to compliment my passion for innovation and technology. While at Queen's University I was actively involved in campus life and student-run organizations. Notably, in my final year, I served as the Marketing Director of [QHacks](https://qhacks.io/)., a student-organized 500 person hackathon.
 
-There should be whitespace between paragraphs.
+I have experience working on various stages of the software development lifecycle as a Quality Assurance Engineer at [ScribbleLive](https://en.rockcontent.com/) and [ecobee](https://www.ecobee.com/en-ca/) and most recently in Product Support at [SAP](https://www.sap.com/canada/index.html). I am currently a student at [Lighthouse Labs](https://www.lighthouselabs.ca/), in a 12-week immersive full-stack web development boot camp program specializing in Javascript, HTML/CSS, SQL, React, and Ruby/Ruby on Rails. With my upcoming graduation from the program, I am looking to gain more development experience working as a full-stack developer.
 
-# Header 1
+I love to travel and cook and run a food blog in my spare time on Instgram [@juliaeatzworld](https://www.instagram.com/juliaeatzworld/).
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# Work Experience
 
-## Header 2
+## Product Support Engineer, SAP
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Toronto, May - December 2019
 
-### Header 3
+- Investigated and resolved customer incidents via chat, calls, and ticket management software.
+- Monitored and managed the global incident queue ensuring that SLAs are fulfilled for all customer incidents.
+- Achieved an overall customer satisfaction rate of over 80%.
 
-{% highlight js %}
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-{% endhighlight %}
+## IT & Operations Intern, Iris Technologies
 
-{% highlight ruby %}
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-{% endhighlight %}
+Toronto, Summer 2018
 
-#### Header 4
+- Updated and maintained website adding a number of features including payment with stripe and design changes.
+- Helped with client outreach by researching and contacting prospective clinics and customers.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Software Testing Intern, ScribbleLive
 
-##### Header 5
+Toronto, Summer 2017
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+- Collaborated with a small team of developers and managers in daily standups to complete and test tasks in bi-weekly sprints.
+- Manually tested all changes made on the platform and checked for errors or failures documenting workflow with Jira.
 
-###### Header 6
+# Education
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## Web Development Bootcamp Diploma
 
-### There's a horizontal rule below this.
+Lighthouse Labs - Toronto, Ontario
+October 2019 - January 2020
+
+12-week immersive full-stack web development boot camp. Key areas include Javascript, HTML/CSS, SQL, React, and Ruby/Ruby on Rails.
+
+## Bachelor of Computing
+
+Queen's University - Kingston, Ontario
+September 2015 - April 2019
+
+Bachelor of Computing (Honours) in Computer Science (CSCI-P-BCH).
 
 ---
 
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Wide image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-{% highlight txt %}
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-{% endhighlight %}
-
-{% highlight txt %}
-The final element.
-{% endhighlight %}
-
----
-
-## Syntax highlighting
-
-Jekyll has [built in support](https://jekyllrb.com/docs/templates/#code-snippet-highlighting) for syntax highlighting of over 60 languages thanks to [Rouge](http://rouge.jneen.net/).
-
-To render a code block with syntax highlighting, surround your code as follows:
-
-{% highlight markdown %}
-{% raw %}
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-{% endraw %}
-{% endhighlight %}
-
-[Pygments](http://pygments.org/) styles are present under section 6.0 of `css/style.scss` for customization.
-
-### Examples
-
----
-
-#### Bash
-
-{% highlight bash %}
->_ ssh -i ~/.ssh/id_rsa account@host.com
-account@host:~$
-$ var="my-value"
-$ echo $var
-my-value
-$ logout
-{% endhighlight %}
-
-#### HTML
-
-{% highlight html %}
-<!DOCTYPE html>
-<html>
- <head>
-   <meta charset="UTF-8">
-   <title>title</title>
- </head>
- <body>
-
- </body>
-</html>
-{% endhighlight %}
-
-#### CSS
-
-{% highlight css %}
-/*--------------------------------------------------------------
-	1.0 Defaults
---------------------------------------------------------------*/
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
-}
-
-body {
-  background-color: #e9edf0;
-  @extend %opensans;
-  -webkit-font-smoothing: antialiased;
-}
-{% endhighlight %}
-
-#### YAML
-
-{% highlight yaml %}
+<!--
 ### Phantom settings
+
 paginate: 10
 footer_text: '© 2018 Jami Gibbs'
 admin_name: 'Jami Gibbs'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 
 #### Phantom Navigation menu
+
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
-{% endhighlight %}
+
+- { url: '/', text: 'Home' }
+- { url: '/about', text: 'About' } -->
