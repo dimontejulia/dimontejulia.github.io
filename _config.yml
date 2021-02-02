@@ -89,6 +89,7 @@ pagination:
 
 ### Phantom settings
 footer_text: "Julia Di Monte"
+
 admin_name: "Julia Di Monte"
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
@@ -98,3 +99,7 @@ enable_nav: true
 nav_item:
   - { url: "/", text: "Home" }
   - { url: "/about", text: "About" }
+  - {
+      url: "https://www.canva.com/design/DAESwXdmUsE/q3aXtuIwzwopgDzLfpf2Ig/view?utm_content=DAESwXdmUsE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
+      text: "Resume",
+    }

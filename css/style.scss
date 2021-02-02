@@ -37,7 +37,9 @@ $secondary: #c295cc;
 }
 
 body {
-  background-color: #dfe7ed;
+  // background-color: #dfe7ed;
+  background-color: #d4d8e6;
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
   @extend %lora;
   -webkit-font-smoothing: antialiased;
 }
@@ -63,8 +65,9 @@ p {
 
 a {
   @include transition(color 0.2s ease-in-out);
+  color: #a15ec2;
   &:hover {
-    color: #ebbff4;
+    color: #fff;
     text-decoration: none;
   }
 }
@@ -111,12 +114,14 @@ input.btn {
 .section-jump {
   position: relative;
   top: 0;
-  color: #c8d7e1;
+  width: 2em;
+  color: #fff;
   margin: 0 auto;
   display: table;
   @include transition(top 0.2s ease-in);
   &:hover {
     top: 3px;
+    color: #ff73fd;
   }
 }
 
@@ -137,6 +142,7 @@ input.btn {
   width: 60%;
   margin: 0 auto;
   display: table;
+  font-size: 16px;
   @include bp-medium {
     width: 100%;
   }
@@ -161,6 +167,8 @@ input.btn {
   }
   .headshot {
     width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
   }
 }
 
@@ -337,9 +345,9 @@ input.btn {
   border-top: 1px solid #efefef;
   padding: 1em 0;
   p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
-    color: #9eb1bd;
+    color: #2c292e;
     margin: 0;
     padding: 10px 0;
     @include bp-xsmall {
