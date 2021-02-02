@@ -16,8 +16,8 @@
 @import "../_sass/bootstrap";
 @import "../_sass/mixins";
 
-$primary: #0a0a0a;
-$secondary: #ff7b7b;
+$primary: #7391d9;
+$secondary: #c295cc;
 
 %lora {
   font-family: "Lora", serif;
@@ -37,7 +37,7 @@ $secondary: #ff7b7b;
 }
 
 body {
-  background-color: #e9edf0;
+  background-color: #dfe7ed;
   @extend %lora;
   -webkit-font-smoothing: antialiased;
 }
@@ -64,7 +64,7 @@ p {
 a {
   @include transition(color 0.2s ease-in-out);
   &:hover {
-    color: #ff5b33;
+    color: #ebbff4;
     text-decoration: none;
   }
 }
@@ -102,6 +102,7 @@ input.btn {
   background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
+  font-size: x-large;
   &.container {
     padding: 0;
   }
@@ -157,6 +158,9 @@ input.btn {
     i {
       padding-right: 0.5em;
     }
+  }
+  .headshot {
+    width: 50%;
   }
 }
 

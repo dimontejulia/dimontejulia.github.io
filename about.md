@@ -14,7 +14,7 @@ I love to travel and cook and run a food blog in my spare time on Instgram [@jul
 
 # Work Experience
 
-## Product Support Engineer, SAP
+### Product Support Engineer, SAP
 
 Toronto, May - December 2019
 
@@ -22,14 +22,14 @@ Toronto, May - December 2019
 - Monitored and managed the global incident queue ensuring that SLAs are fulfilled for all customer incidents.
 - Achieved an overall customer satisfaction rate of over 80%.
 
-## IT & Operations Intern, Iris Technologies
+### IT & Operations Intern, Iris Technologies
 
 Toronto, Summer 2018
 
 - Updated and maintained website adding a number of features including payment with stripe and design changes.
 - Helped with client outreach by researching and contacting prospective clinics and customers.
 
-## Software Testing Intern, ScribbleLive
+### Software Testing Intern, ScribbleLive
 
 Toronto, Summer 2017
 
@@ -38,14 +38,14 @@ Toronto, Summer 2017
 
 # Education
 
-## Web Development Bootcamp Diploma
+### Web Development Bootcamp Diploma
 
 Lighthouse Labs - Toronto, Ontario
 October 2019 - January 2020
 
 12-week immersive full-stack web development boot camp. Key areas include Javascript, HTML/CSS, SQL, React, and Ruby/Ruby on Rails.
 
-## Bachelor of Computing
+### Bachelor of Computing
 
 Queen's University - Kingston, Ontario
 September 2015 - April 2019
