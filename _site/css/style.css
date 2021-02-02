@@ -5821,7 +5821,7 @@ button.close {
  @return {Color}
 */
 body {
-  font-family: "Lora", serif; }
+  font-family: "Exo 2", sans-serif; }
 
 h1,
 h2,
@@ -5829,7 +5829,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Roboto Slab", serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -5957,7 +5957,7 @@ input.btn {
   .hero-content .headshot {
     width: 50%;
     margin: 0 auto;
-    padding-top: 10px; }
+    padding-top: 20px; }
 
 /*--------------------------------------------------------------
 	2.1 Contact

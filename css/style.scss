@@ -19,11 +19,11 @@
 $primary: #7391d9;
 $secondary: #c295cc;
 
-%lora {
-  font-family: "Lora", serif;
+%sora {
+  font-family: "Exo 2", sans-serif;
 }
 %opensans {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 /*--------------------------------------------------------------
@@ -40,7 +40,7 @@ body {
   // background-color: #dfe7ed;
   background-color: #d4d8e6;
   background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
-  @extend %lora;
+  @extend %sora;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -168,7 +168,7 @@ input.btn {
   .headshot {
     width: 50%;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 }
 
