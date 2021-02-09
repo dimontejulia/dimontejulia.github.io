@@ -13,11 +13,11 @@
         <h1>Projects</h1>
         <div class="break"></div>
 
-        {% for post in paginator.posts %}
+        {{% for post in paginator.posts %}}
         <div class="wow fadeIn">
-          {% if post.position == "left" %} {% include content-left.html %} {%
-          endif %} {% if post.position == "right" %} {% include
-          content-right.html %} {% endif %}
+          {{% if post.position == "left" %}} {{% include content-left.html %}}
+          {% endif %} {{% if post.position == "right" %}} {{% include
+          content-right.html %}} {% endif %}
         </div>
         {% endfor %} {% include pagination.html %}
       </div>
