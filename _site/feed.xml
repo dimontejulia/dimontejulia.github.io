@@ -3,30 +3,19 @@
   <channel>
     <title>Hello. I'm Julia Di Monte.</title>
     <description>I'm a Full Stack Web Developer from Toronto, Ontario. I am computer science graduate with a passion for learning everything and anything from new coding languages to sourdough techniques. </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Feb 2021 12:20:31 -0500</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2021 12:20:31 -0500</lastBuildDate>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 09 Feb 2021 12:31:47 -0500</pubDate>
+    <lastBuildDate>Tue, 09 Feb 2021 12:31:47 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
-    
-      <item>
-        <title></title>
-        <description>
-</description>
-        <pubDate>Tue, 09 Feb 2021 12:20:31 -0500</pubDate>
-        <link>http://localhost:4000/2021/02/09/2020-11-10-mood4food.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/02/09/2020-11-10-mood4food.html</guid>
-        
-        
-      </item>
     
       <item>
         <title>Bookends</title>
         <description>
 </description>
         <pubDate>Wed, 27 Jan 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/development/team/project/2021/01/27/bookends.html</link>
-        <guid isPermaLink="true">http://localhost:4000/development/team/project/2021/01/27/bookends.html</guid>
+        <link>http://localhost:4000//development/team/project/2021/01/27/bookends.html</link>
+        <guid isPermaLink="true">http://localhost:4000//development/team/project/2021/01/27/bookends.html</guid>
         
         <category>React</category>
         
@@ -52,8 +41,8 @@
         <description>
 </description>
         <pubDate>Sun, 10 Jan 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/development/2021/01/10/jungle.html</link>
-        <guid isPermaLink="true">http://localhost:4000/development/2021/01/10/jungle.html</guid>
+        <link>http://localhost:4000//development/2021/01/10/jungle.html</link>
+        <guid isPermaLink="true">http://localhost:4000//development/2021/01/10/jungle.html</guid>
         
         <category>Ruby</category>
         
@@ -69,8 +58,8 @@
         <description>
 </description>
         <pubDate>Sat, 19 Dec 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/development/react/full-stack/2020/12/19/scheduler.html</link>
-        <guid isPermaLink="true">http://localhost:4000/development/react/full-stack/2020/12/19/scheduler.html</guid>
+        <link>http://localhost:4000//development/react/full-stack/2020/12/19/scheduler.html</link>
+        <guid isPermaLink="true">http://localhost:4000//development/react/full-stack/2020/12/19/scheduler.html</guid>
         
         <category>React</category>
         
@@ -88,12 +77,41 @@
       </item>
     
       <item>
+        <title>Mood4Food</title>
+        <description>
+</description>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//development/full-stack/2020/11/10/mood4food.html</link>
+        <guid isPermaLink="true">http://localhost:4000//development/full-stack/2020/11/10/mood4food.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>jQuery,</category>
+        
+        <category>AJAX,</category>
+        
+        <category>HTML,</category>
+        
+        <category>CSS,</category>
+        
+        <category>NodeJS,</category>
+        
+        <category>Express</category>
+        
+        
+        <category>development</category>
+        
+        <category>full-stack</category>
+        
+      </item>
+    
+      <item>
         <title>Tweeter</title>
         <description>
 </description>
         <pubDate>Sun, 01 Nov 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/development/2020/11/01/tweeter.html</link>
-        <guid isPermaLink="true">http://localhost:4000/development/2020/11/01/tweeter.html</guid>
+        <link>http://localhost:4000//development/2020/11/01/tweeter.html</link>
+        <guid isPermaLink="true">http://localhost:4000//development/2020/11/01/tweeter.html</guid>
         
         <category>JavaScript</category>
         
@@ -115,8 +133,8 @@
         <description>
 </description>
         <pubDate>Sun, 25 Oct 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/development/2020/10/25/tinyapp.html</link>
-        <guid isPermaLink="true">http://localhost:4000/development/2020/10/25/tinyapp.html</guid>
+        <link>http://localhost:4000//development/2020/10/25/tinyapp.html</link>
+        <guid isPermaLink="true">http://localhost:4000//development/2020/10/25/tinyapp.html</guid>
         
         <category>JavaScript</category>
         

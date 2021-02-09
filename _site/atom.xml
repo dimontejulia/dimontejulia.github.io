@@ -4,22 +4,13 @@
  <title>Hello. I'm Julia Di Monte.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-02-09T12:20:31-05:00</updated>
+ <updated>2021-02-09T12:31:47-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Julia Di Monte</name>
    <email></email>
  </author>
 
- 
- <entry>
-   <title></title>
-   <link href="http://localhost:4000/2021/02/09/2020-11-10-mood4food.html"/>
-   <updated>2021-02-09T12:20:31-05:00</updated>
-   <id>http://localhost:4000/2021/02/09/2020-11-10-mood4food</id>
-   <content type="html">
-</content>
- </entry>
  
  <entry>
    <title>Bookends</title>
@@ -44,6 +35,15 @@
    <link href="http://localhost:4000/development/react/full-stack/2020/12/19/scheduler.html"/>
    <updated>2020-12-19T00:00:00-05:00</updated>
    <id>http://localhost:4000/development/react/full-stack/2020/12/19/scheduler</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mood4Food</title>
+   <link href="http://localhost:4000/development/full-stack/2020/11/10/mood4food.html"/>
+   <updated>2020-11-10T00:00:00-05:00</updated>
+   <id>http://localhost:4000/development/full-stack/2020/11/10/mood4food</id>
    <content type="html">
 </content>
  </entry>
