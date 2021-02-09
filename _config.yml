@@ -17,7 +17,7 @@ title: "Hello. I'm Julia Di Monte."
 email: "dimontejulia@gmail.com"
 description: "I'm a Full Stack Web Developer from Toronto, Ontario. I am computer science graduate with a passion for learning everything and anything from new coding languages to sourdough techniques. "
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://juliadimonte.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://www.juliadimonte.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 github_username: "dimontejulia"
 linkedin_username: "juliadimonte"
