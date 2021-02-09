@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Hello. I'm Julia Di Monte.</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2021-02-09T12:47:50-05:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://www.juliadimonte.com/atom.xml" rel="self"/>
+ <link href="https://www.juliadimonte.com/"/>
+ <updated>2021-02-09T12:48:59-05:00</updated>
+ <id>https://www.juliadimonte.com</id>
  <author>
    <name>Julia Di Monte</name>
    <email></email>
@@ -14,54 +14,54 @@
  
  <entry>
    <title>Bookends</title>
-   <link href="http://localhost:4000/development/team/project/2021/01/27/bookends.html"/>
+   <link href="https://www.juliadimonte.com/development/team/project/2021/01/27/bookends.html"/>
    <updated>2021-01-27T00:00:00-05:00</updated>
-   <id>http://localhost:4000/development/team/project/2021/01/27/bookends</id>
+   <id>https://www.juliadimonte.com/development/team/project/2021/01/27/bookends</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Jungle</title>
-   <link href="http://localhost:4000/development/2021/01/10/jungle.html"/>
+   <link href="https://www.juliadimonte.com/development/2021/01/10/jungle.html"/>
    <updated>2021-01-10T00:00:00-05:00</updated>
-   <id>http://localhost:4000/development/2021/01/10/jungle</id>
+   <id>https://www.juliadimonte.com/development/2021/01/10/jungle</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Scheduler</title>
-   <link href="http://localhost:4000/development/react/full-stack/2020/12/19/scheduler.html"/>
+   <link href="https://www.juliadimonte.com/development/react/full-stack/2020/12/19/scheduler.html"/>
    <updated>2020-12-19T00:00:00-05:00</updated>
-   <id>http://localhost:4000/development/react/full-stack/2020/12/19/scheduler</id>
+   <id>https://www.juliadimonte.com/development/react/full-stack/2020/12/19/scheduler</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Mood4Food</title>
-   <link href="http://localhost:4000/development/full-stack/2020/11/10/mood4food.html"/>
+   <link href="https://www.juliadimonte.com/development/full-stack/2020/11/10/mood4food.html"/>
    <updated>2020-11-10T00:00:00-05:00</updated>
-   <id>http://localhost:4000/development/full-stack/2020/11/10/mood4food</id>
+   <id>https://www.juliadimonte.com/development/full-stack/2020/11/10/mood4food</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Tweeter</title>
-   <link href="http://localhost:4000/development/2020/11/01/tweeter.html"/>
+   <link href="https://www.juliadimonte.com/development/2020/11/01/tweeter.html"/>
    <updated>2020-11-01T00:00:00-04:00</updated>
-   <id>http://localhost:4000/development/2020/11/01/tweeter</id>
+   <id>https://www.juliadimonte.com/development/2020/11/01/tweeter</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>TinyApp</title>
-   <link href="http://localhost:4000/development/2020/10/25/tinyapp.html"/>
+   <link href="https://www.juliadimonte.com/development/2020/10/25/tinyapp.html"/>
    <updated>2020-10-25T00:00:00-04:00</updated>
-   <id>http://localhost:4000/development/2020/10/25/tinyapp</id>
+   <id>https://www.juliadimonte.com/development/2020/10/25/tinyapp</id>
    <content type="html">
 </content>
  </entry>
