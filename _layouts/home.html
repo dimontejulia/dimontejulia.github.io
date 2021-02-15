@@ -15,6 +15,7 @@
 
         {% for post in paginator.posts %}
         <div class="wow fadeIn">
+          <h1>{{ post.title }}</h1>
           {% if post.position == "left" %} {% include content-left.html %} {%
           endif %} {% if post.position == "right" %} {% include
           content-right.html %} {% endif %}
