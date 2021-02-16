@@ -1,7 +1,491 @@
----
-layout: home
-pagination: 
-  enabled: true
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Julia Di Monte</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Google fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap"
+    />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo.svg" alt="" width="45"
+          /></a>
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link link-scroll active" href="#hero"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-scroll" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-scroll" href="#expertise">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-scroll" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-scroll" href="#experience"
+                  >Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-scroll" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section-->
+    <section
+      class="hero bg-cover bg-center mt-5"
+      id="hero"
+      style="background: url(img/wide-headshot.jpg)"
+    >
+      
+      <div class="py-5 my-5 ml-5 index-forward">
+        <div class="row">
+          <div class="col-md-6 text-white">
+            <h2 class="h4 text-primary font-weight-normal mb-0">Hi, I am</h2>
+            <h1 class="text-uppercase text-xl mb-0 pr-8">
+              Julia 
+            </h1>
+            <h1 class="text-uppercase text-xl mb-0"><span class="text-primary">Di Monte</span></h1>
+            
+            <h2 class="h4 font-weight-normal mb-5">Web Developer</h2>
+            <!-- <p class="text-shadow">
+              I'm a Full Stack Web Developer from Toronto, Ontario. I am
+              computer science graduate with a passion for learning everything
+              and anything from new coding languages to sourdough techniques.
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section-->
+    <section class="bg-light" id="about">
+      <div class="container">
+        <header class="mb-5">
+          <p
+            class="font-weight-bold text-primary text-uppercase letter-spacing-3"
+          >
+            Let's get acquainted.
+          </p>
+          <h2 class="h3 lined">About</h2>
+        </header>
+        <p class="lead text-muted">
+          As a web developer and graduate of Queen's University with a Bachelor
+          of Computing, I look for opportunities to complement my passion for
+          innovation and technology. While at Queen's University I was actively
+          involved in campus life and student-run organizations. Notably, in my
+          final year, I served as the Marketing Director of
+          <a href="https://qhacks.io/">QHacks</a>., a student-organized 500
+          person hackathon. <br /><br />I have experience working on various
+          stages of the software development lifecycle as a Quality Assurance
+          Engineer at <a href="https://en.rockcontent.com/">ScribbleLive</a> and
+          <a href="https://www.ecobee.com/en-ca/">ecobee</a> and most recently
+          in Product Support at
+          <a href="https://www.sap.com/canada/index.html">SAP</a>. I recently
+          graduated from Lighthouse Labs, in a 12-week immersive full-stack web
+          development boot camp program specializing in Javascript, HTML/CSS,
+          SQL, React, and Ruby/Ruby on Rails. Since graduating from the program,
+          I am looking to gain more development experience working as a
+          full-stack developer. <br /><br />
+          I love to travel and cook and run a food blog in my spare time on
+          Instagram
+          <a href="https://www.instagram.com/juliaeatzworld/">@juliaeatzworld</a
+          >.
+        </p>
+      </div>
+    </section>
+    <!-- Expertise Section        -->
+    <section id="expertise">
+      <div class="container">
+        <header class="mb-5 pb-4">
+          <p
+            class="font-weight-bold text-primary text-uppercase letter-spacing-3"
+          >
+            <a href="https://github.com/dimontejulia/">Find me on Github</a>
+          </p>
+          <h2 class="text-uppercase lined">Projects</h2>
+        </header>
+        <div class="row">
+          <div class="col-sm-4 mb-5">
+            <h3 class="h4">
+              <span class="text-primary mr-2">Jan 2021</span>Bookends
+            </h3>
+            <img src="./img/projects/bookends.png" class="img-fluid" />
+            <p class="text-muted text-meduium ml-4 pl-3">
+              Customizable bookshelf using OpenLibrary's Search API. Add books,
+              notes, comments, and share books to the newsfeed. Book clubs can
+              also be created, allowing users to connect with their friends.
+              <a href="https://github.com/dimontejulia/bookends"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
 
-<!-- BLANK -->
+          <div class="col-sm-4 mb-5">
+            <h3 class="h4">
+              <span class="text-primary mr-2">Jan 2021</span>Jungle
+            </h3>
+            <img src="./img/projects/jungle.png" class="img-fluid" />
+            <p class="text-muted text-meduium ml-4 pl-3">
+              Inherited an existing code-base built with Ruby on Rails to fix
+              bugs and implement new features.
+              <a href="https://github.com/dimontejulia/jungle-rails"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
+
+          <div class="col-sm-4 mb-5">
+            <h3 class="h4">
+              <span class="text-primary mr-2">Dec 2020</span>Scheduler
+            </h3>
+            <img src="./img/projects/scheduler.png" class="img-fluid" />
+            <p class="text-muted text-meduium ml-4 pl-3">
+              React application that allows users to create, edit and delete
+              interview appointments. We combine a concise API with a WebSocket
+              server to build a realtime experience. Development focuses on a
+              single page application (SPA) called Interview Scheduler, built
+              using React. Data is persisted by the API server using a
+              PostgreSQL database.
+              <a href="https://github.com/dimontejulia/scheduler"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
+
+          <div class="col-sm-4 mb-5">
+            <h3 class="h4">
+              <span class="text-primary mr-2">Nov 2020</span>Mood4Food
+            </h3>
+            <img src="./img/projects/mood4food.png" class="img-fluid" />
+            <p class="text-muted text-meduium ml-4 pl-3">
+              Food ordering web application where users can order food, receive
+              an SMS notification and SMS updates from a restaurant user.
+              <a href="https://github.com/dimontejulia/mood4food"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
+
+          <div class="col-sm-4 mb-5">
+            <h3 class="h4">
+              <span class="text-primary mr-2">Nov 2020</span>Tweeter
+            </h3>
+            <img src="./img/projects/tweeter.png" class="img-fluid" />
+            <p class="text-muted text-meduium ml-4 pl-3">
+              Tweeter is a simple, single-page Twitter clone. User can compose
+              tweets and browse tweets on the Tweeter page. The Tweeter app is
+              responsive on mobile, tablet and desktop devices.
+              <a href="https://github.com/dimontejulia/tweeter"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
+
+          <div class="col-sm-4 mb-5">
+            <h3 class="h4">
+              <span class="text-primary mr-2">Oct 2020</span>TinyApp
+            </h3>
+            <img src="./img/projects/tinyApp.png" class="img-fluid" />
+            <p class="text-muted text-meduium ml-4 pl-3">
+              TinyApp is a full stack web application built with Node and
+              Express that allows users to shorten long URLs (à la bit.ly).
+              Users can register or login to view the urls that they have added.
+              URLs can be created, edited and deleted once logged in. URLs have
+              unique short identifiers that act as keys to the long URLs.
+              <a href="https://github.com/dimontejulia/tinyapp"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education Section-->
+    <section class="bg-light" id="education">
+      <div class="container">
+        <header class="mb-5 pb-4">
+          <h2 class="text-uppercase lined">Education</h2>
+        </header>
+        <!--  Timeline -->
+        <ul class="timeline">
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 text-primary text-small">
+                  2020-2021
+                </p>
+                <h2 class="h5 mb-0 text-uppercase">
+                  Web Development Bootcamp Diploma
+                </h2>
+                <p class="text-small mb-0">Lighthouse Labs</p>
+                <span class="small text-muted">Toronto, Canada</span>
+              </div>
+              <div class="col-lg-7">
+                <p class="text-muted">
+                  12-week immersive full-stack web development boot camp. Key
+                  areas include Javascript, HTML/CSS, SQL, React, and Ruby/Ruby
+                  on Rails.
+                </p>
+              </div>
+            </div>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 text-primary text-small">
+                  Sept 2015 - May 2019
+                </p>
+                <h2 class="h5 mb-0 text-uppercase">Bachelor of Computing</h2>
+                <p class="text-small mb-0">Queen's University</p>
+                <span class="small text-muted">Kingston, Canada</span>
+              </div>
+              <div class="col-lg-7">
+                <p class="text-muted">
+                  Bachelor of Computing (Honours) in Computer Science
+                  (CSCI-P-BCH). Accomplishments include: Queen's Hacakthon
+                  Marketing Director, Women in Computing Vice Chair, Queen's
+                  Tennis Team, Technology Officer for the Queen's Environmental
+                  Conference, Barista & Cashier at student run coffee shop
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Experience Section        -->
+    <section id="experience">
+      <div class="container">
+        <header class="mb-5 pb-4">
+          <h2 class="text-uppercase lined">Experience</h2>
+        </header>
+        <!--  Timeline -->
+        <ul class="timeline">
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 text-primary text-small">
+                  May 2019 - Dec 2019
+                </p>
+                <h2 class="h5 mb-0 text-uppercase">SAP</h2>
+                <p class="text-small mb-0">Product Support Engineer</p>
+                <span class="small text-muted">Toronto, Canada </span>
+              </div>
+              <div class="col-lg-7">
+                <p class="text-muted">
+                  Investigated and resolved customer incidents via chat, calls, and ticket management software.
+                </p>
+                <p class="text-muted">
+                    Monitored and managed the global incident queue ensuring that SLAs are fulfilled for all customer incidents.
+                </p>
+                <p class="text-muted">Achieved an overall customer satisfaction rate of over 80%.</p>
+             
+                </p>
+              </div>
+            </div>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 text-primary text-small">
+                  Summer 2018
+                </p>
+                <h2 class="h5 mb-0 text-uppercase">Iris Technologies</h2>
+                <p class="text-small mb-0">IT & Operations Intern</p>
+                <span class="small text-muted">Toronto, Canada</span>
+              </div>
+              <div class="col-lg-7">
+                <p class="text-muted">
+                  Updated and maintained website adding a number of features including payment with stripe and design changes.
+                </p>
+                <p class="text-muted">
+                  Helped with client outreach by researching and contacting prospective clinics and customers.
+                </p>
+              </div>
+            </div>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 text-primary text-small">
+                  Summer 2017
+                </p>
+                <h2 class="h5 mb-0 text-uppercase">ScribbleLive</h2>
+                <p class="text-small mb-0">Software Testing Intern</p>
+                <span class="small text-muted">Toronto, Canada</span>
+              </div>
+              <div class="col-lg-7">
+                <p class="text-muted">
+                  Collaborated with a small team of developers and managers in daily standups to complete and test tasks in bi-weekly sprints.
+                </p>
+                <p class="text-muted">Manually tested all changes made on the platform and checked for errors or failures documenting workflow with Jira.</p>
+              </div>
+            </div>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 text-primary text-small">
+                  Summer 2016
+                </p>
+                <h2 class="h5 mb-0 text-uppercase">ecobee</h2>
+                <p class="text-small mb-0">Quality Assurance Intern</p>
+                <span class="small text-muted">Toronto, Canada</span>
+              </div>
+              <div class="col-lg-7">
+                <p class="text-muted">
+                  Tested a variety of mobile, web, and physical products using simulators as well as manual testing.                 </p>
+                <p class="text-muted">
+                  Worked with a team of professionals to troubleshoot and efficiently report software bugs or errors.                 </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Education Section        -->
+    <section class="bg-light" id="contact">
+      <div class="container">
+        <header class="mb-5 pb-4">
+        
+          <h2 class="text-uppercase lined">Contact</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="px-4 py-5 text-center contact-item shadow-sm">
+              <i class="fas fa-map-marker-alt fa-2x mb-4"></i>
+              <h4 class="contact-item-title h5 text-uppercase">Location</h4>
+              <p class="text-small mb-0">Toronto, Canada</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="px-4 py-5 text-center contact-item shadow-sm">
+              <i class="fas fa-mobile fa-2x mb-4"></i>
+              <h4 class="contact-item-title h5 text-uppercase">Phone</h4>
+              <p class="text-small mb-0">+1 (647) 382 3731</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <a
+              class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"
+              href="https://www.juliadimonte.com"
+              ><i class="fas fa-globe-americas fa-2x mb-4"></i>
+              <h4 class="contact-item-title h5 text-uppercase">Website</h4>
+              <p class="text-small mb-0">www.juliadimonte.com</p></a
+            >
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <a
+              class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"
+              href="mailto:dimontejulia@gmail.com"
+              ><i class="fas fa-envelope fa-2x mb-4"></i>
+              <h4 class="contact-item-title h5 text-uppercase">Email</h4>
+              <p class="text-small mb-0">dimontejulia@gmail.com</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer>
+      <div class="container text-center section-padding-y">
+        <div class="row px-4">
+          <div class="col-lg-7 mx-auto">
+            <h2 class="text-uppercase mb-0">Julia Di Monte</h2>
+            <h6 class="text-primary text-uppercase mb-0 letter-spacing-3">
+              Web Developer
+            </h6>
+            <br>
+            <ul class="list-inline mb-0">
+              
+              <li class="list-inline-item">
+                <a class="social-link" href="https://www.linkedin.com/in/juliadimonte/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link" href="https://github.com/dimontejulia "
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="copyrights px-4">
+        <div class="container py-4 border-top text-center">
+          <p class="mb-0 text-muted py-2">
+            &copy; All rights reserved. Template designed by
+            <a href="https://bootstraptemple.com">Bootstrap Temple</a>.
+          </p>
+        </div>
+      </div> -->
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
